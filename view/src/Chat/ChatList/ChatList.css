@@ -1,0 +1,144 @@
+
+.im-dialogs-wrap {
+	flex: 2;
+	border-right: 1px solid rgba(15, 60, 96, 0.2);
+	box-shadow: 0px 1px 3px 0px rgba(60, 75, 87, 0.27);
+	overflow: hidden;
+	user-select: none;
+}
+
+.im-dialogs-col {
+	height: 100%;
+	width: 100%;
+}
+
+
+.im-dialogs-search {
+	height: 36px;
+	padding: 12px;
+}
+
+.im-dialogs-search input {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px 35px;
+	font-size: 13px;
+	border: none;
+	background-color: #F2F2F2;
+	color: gray;
+	transition: .2s background-color;
+	background-image: url('./search.png');
+	background-repeat: no-repeat;
+	border: 1px solid #F2F2F2;
+	background-position: 10px 11px;
+}
+
+.im-dialogs-search input:focus {
+	background-color: white;
+}
+
+.im-dialogs-search input:focus::placeholder {
+	color: transparent;
+}
+
+.im-dialogs-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.im-dialog-wrap {
+	height: 50px;
+	cursor: pointer;
+	padding: 10px 10px;
+	display: block;
+	position: relative;
+}
+
+.im-dialog-wrap-open {
+	background-color: #6490b1;
+	color: white;
+}
+
+.im-dialog-wrap:hover {
+	background: #f2f6fa;
+}
+
+.im-dialog-wrap-open:hover {
+	background-color: #6490b1;
+	color: white;
+}
+
+.im-dialog {
+	display: flex;
+}
+
+.im-dialog-img {
+	border: 1px solid rgba(15, 60, 96, 0.2);
+	width: 40px;
+	height: 40px;
+	padding: 5px;
+	border-radius: 50%;
+	flex: 0 0 40px;
+	margin-right: 15px;
+}
+
+.im-dialog-message-wrap {
+	/* background-color: beige; */
+	flex: 3;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding-top: 3px;
+}
+
+
+
+.im-dialog-message-title {
+	color: black;
+	font-weight: bold;
+}
+
+.im-dialog-message {
+	padding-top: 7px;
+}
+
+.im-dialog-message span {
+	width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden !important;
+	text-overflow: ellipsis;
+	font-size: 12px;
+}
+
+
+.im-dialog-message-date {
+	flex: 1;
+	font-size: 10px;
+	text-align: center;
+}
+
+
+.im-dialog-message-notif {
+	transition: .25s;
+	position: absolute;
+	bottom: 15px;
+	right: 20px;
+	border-radius: 50%;
+	background-color: rgb(81, 194, 181);
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	padding: 2px;
+}
+
+.im-dialog-message-notif div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+

@@ -1,0 +1,36 @@
+
+
+.form-sign {
+	padding-top: 30px;
+	transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
+	animation-name: appear;
+	animation-duration: .5s;
+	transition-timing-function: linear;
+}
+
+@keyframes appear
+{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+
+}
+
+.send-button {
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	width: 100%;
+	font-size: 13px;
+	font-weight: bold;
+	height: 35px;
+	background-color: #FF644E;
+	color: white;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.send-button:hover
+{
+	background-color: #FF643E;
+}
+

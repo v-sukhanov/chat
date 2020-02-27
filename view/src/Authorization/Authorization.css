@@ -1,0 +1,26 @@
+
+
+.AuthBox {
+	color: white;
+	font-size: 18px;
+	font-family: sans-serif;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	border-radius: 10px;
+	border: 1px solid grey;
+	background: rgba(59, 59, 64, 0.4);
+	overflow: hidden;
+	height: 600px;
+}
+
+.wrapper-box {
+	/* background-color: red; */
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+

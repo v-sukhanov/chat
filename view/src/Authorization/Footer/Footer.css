@@ -1,0 +1,36 @@
+.footer {
+	font-family: sans-serif;
+	color: gray;
+	width: 250px;
+	margin: 30px auto;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 10px;
+
+}
+
+.footer span:hover {
+	cursor: pointer;
+	color: white;
+}
+
+.social-icon {
+	margin: 0 auto;
+	margin-top: 20px;
+	display: flex;
+	width: 130px;
+}
+
+.soc-box {
+	flex: 1;
+}
+
+.social-icon img {
+	cursor: pointer;
+	transition: .2s;
+}
+
+.social-icon img:hover {
+	width: 36px;
+	transform: translate(0, -3px);
+}

@@ -1,0 +1,70 @@
+
+.message-wrap {
+	/* background-color: red; */
+	width: 100%;
+	padding: 5px 20px;
+	margin-top: 5px;
+	box-sizing: border-box;
+}
+
+.message {
+	display: flex;
+}
+
+.message-img-wrap {
+	flex: 1;
+	display: inline-block;
+	text-align: center;
+}
+
+.message-img {
+	border: 1px solid rgba(15, 60, 96, 0.2);
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.message-date-wrap {
+	flex: 1;
+}
+
+.message-date-wrap span {
+	font-size: 10px;
+}
+
+.message-content-wrap {
+	flex: 0 0 400px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+
+}
+
+.message-author {
+	color: #8365ab;
+	padding-bottom: 5px;
+
+}
+
+.message-content {
+	word-wrap: break-word;
+	width: 300px;
+	white-space: pre-wrap;
+	line-height: 150%;
+	color: rgb(44, 43, 43);
+	font-size: 13px;
+
+	/* font: 13px/18px Tahoma,sans-serif,Arial,Helvetica; */
+}
+
+
+.date_more_one_day {
+	height: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	color: rgb(117, 207, 85);
+}

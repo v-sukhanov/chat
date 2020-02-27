@@ -1,0 +1,58 @@
+.inputBox {
+	position: relative;
+}
+
+.inputBox input
+{
+	width: 100%;
+	border: none;
+	outline: none;
+	margin-bottom: 30px;
+	background: transparent;
+
+
+	border-bottom: solid 1px #5E5E5E;
+	padding-bottom: 10px;
+	font-size: 13px;
+	color: white;
+	margin: 20px 0;
+
+}
+
+.label
+{
+	position: absolute;
+	top: 27px;
+	left: 0;
+	font-size: 11px;
+	color: gray;
+	pointer-events: none;
+	transition: .4s; /*duration of animation*/
+}
+
+.label_focus
+{
+
+	top: -3px;
+	color: #00A2FF;
+	font-size: 12px;
+}
+
+.label_error
+{
+
+	color: #FF7860;
+	animation-name: push_error;
+	animation-duration: .6s;
+}
+
+@keyframes push_error
+{
+	0% {transform: rotate(0deg);}
+	20% {transform: rotate(5deg);}
+	40% {transform: rotate(-5deg);}
+	60% {transform: rotate(2deg);}
+	80% {transform: rotate(-2deg);}
+	100% {transform: rotate(0deg);}
+
+}

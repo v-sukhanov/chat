@@ -1,0 +1,31 @@
+
+* {
+	font: 13px/18px Tahoma,sans-serif,Arial,Helvetica;
+}
+
+.chat-box {
+	position: absolute;
+	left: 50%;
+	width: 1000px;
+	height: 98%;
+	/* border-radius: 5px; */
+	transform: translate(-50%, 0);
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	min-height: 400px;
+
+	max-width: 1010px;
+	min-width: 400px;
+	color: grey;
+}
+
+
+
+.chat-content-box {
+	flex: 13;
+	display: flex;
+	border-radius: 0 0 10px 10px;
+
+}
+
