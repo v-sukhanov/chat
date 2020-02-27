@@ -1,0 +1,5 @@
+{
+	"port": 5000,
+	"key": "Bla BLa BLa",
+	"mongoUri": "mongodb://localhost:27017/test"
+}
